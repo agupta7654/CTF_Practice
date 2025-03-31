@@ -9,4 +9,8 @@ change = 'crypto{'
 
 change = ([ord(i) for i in change])
 
+# print(change)
+
 print(xor(value, change))
+
+print(xor(value, 'myXORkey'))
